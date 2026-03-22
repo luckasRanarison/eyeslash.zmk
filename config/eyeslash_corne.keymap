@@ -281,10 +281,10 @@
 
         func_layer {
             bindings = <
-&bootloader  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                                                        &rgb_ug RGB_SPI                   &soft_off     &kp F1  &kp F2  &kp F3  &kp F10  &studio_unlock
-&bt BT_CLR   &ext_power EP_ON  &ext_power EP_OFF  &kp K_PREV       &kp K_NEXT       &kp K_PLAY_PAUSE                                   &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &out OUT_BLE  &kp F4  &kp F5  &kp F6  &kp F11  &kp PRINTSCREEN
-&none        &rgb_ug RGB_HUI   &rgb_ug RGB_HUD    &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_TOG   &rgb_ug RGB_COLOR_HSB(0,0,98)                     &rgb_ug RGB_SPD                   &out OUT_USB  &kp F7  &kp F8  &kp F9  &kp F12  &none
-                                                  &trans           &trans           &trans                                                                                                &trans        &trans  &trans
+&bootloader  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                                                       &rgb_ug RGB_SPI                   &soft_off     &kp F1  &kp F2  &kp F3  &kp F10  &studio_unlock
+&bt BT_CLR   &ext_power EP_ON  &ext_power EP_OFF  &kp C_PREV       &kp C_NEXT       &kp C_PP                                          &rgb_ug RGB_EFR  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &out OUT_BLE  &kp F4  &kp F5  &kp F6  &kp F11  &kp PRINTSCREEN
+&none        &rgb_ug RGB_HUI   &rgb_ug RGB_HUD    &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(0,0,98)                     &rgb_ug RGB_SPD                   &out OUT_USB  &kp F7  &kp F8  &kp F9  &kp F12  &none
+                                                  &trans           &trans           &trans                                                                                               &trans        &trans  &trans
             >;
 
             label = "FUNC";

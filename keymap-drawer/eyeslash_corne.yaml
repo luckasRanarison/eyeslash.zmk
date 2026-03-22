@@ -21,7 +21,7 @@ layers:
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - $$mdi:arrow-left-bold$$
-  - Ins
+  - HOME
   - $$mdi:arrow-right-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: COMPOSITE}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: MOUSE, h: EDIT}
-  - $$mdi:apple-keyboard-caps$$
+  - Ins
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
@@ -252,7 +252,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB SPI
   - '&soft_off'
   - F1
   - F2
@@ -262,12 +262,12 @@ layers:
   - $$mdi:bluetooth-off$$
   - EP ON
   - EP OFF
-  - RGB EFF
-  - RGB EFR
-  - '&bl BL_TOG'
-  - PREVIOUS
-  - PP
+  - PREV
   - NEXT
+  - PLAY PAUSE
+  - RGB EFR
+  - RGB TOG
+  - RGB EFF
   - OUT BLE
   - F4
   - F5
@@ -279,9 +279,9 @@ layers:
   - RGB HUD
   - RGB SAI
   - RGB SAD
-  - RGB COLOR HSB(0,0,100)
   - RGB TOG
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB COLOR HSB(0,0,98)
+  - RGB SPD
   - OUT USB
   - F7
   - F8

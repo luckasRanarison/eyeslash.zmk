@@ -262,9 +262,9 @@ layers:
   - $$mdi:bluetooth-off$$
   - EP ON
   - EP OFF
-  - PREV
-  - NEXT
-  - PLAY PAUSE
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - $$mdi:play-pause$$
   - RGB EFR
   - RGB TOG
   - RGB EFF
